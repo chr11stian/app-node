@@ -24,7 +24,6 @@ var server = app.listen(process.env.PORT || 5000, function () {
   console.log("App listening at http://%s:%s", host, port)
 })
 
-
 function initial() {
 	Customer.create({
 	   firstname: "Jack",
